@@ -1,0 +1,25 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  font-size: 3rem;
+  margin: auto;
+  max-width: 800px;
+  margin-top: 20px;
+}
+:root{
+ 
+  --ternary-color:DarkSalmon;
+}
+
+.theme-light {
+  
+  --ternary-color:DarkSalmon;
+}
+
+/* --light-text is fine on on the first 3, --dark-text is fine on all of them, --dark-text and dark-background are fine as text on --accent */
+.theme-dark {
+ 
+  --ternary-color:gray;
+}
